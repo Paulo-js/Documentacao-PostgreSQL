@@ -45,7 +45,7 @@ Que irá retornar o seguinte:
 | Ford  | Mustang | 1964 |
 
 
-# Explições sobre as declarações SQL usadas
+# Explicações sobre as declarações SQL usadas
 
 Perceba que na declaração SQL usada acima (`INSERT INTO`), os valores de *string* (*texto*) devem ser escrito com aspas simples.
 
