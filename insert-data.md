@@ -76,3 +76,11 @@ Significa que `3` registros foram inseridos com sucesso.
 ```sql
 SELECT * FROM cars;
 ```
+
+O que irá retornar o seguinte:
+
+| brand | model | year
+|-------|-------|------
+|Volvo  | p1800 | 1968
+|BMW | M1 | 1978
+|Toyota | Celica | 1975
