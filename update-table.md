@@ -39,3 +39,32 @@ Resultado:
 
 A declaração **SET** especificou o campo "color" e a declaração **WHERE** indicou que o valor dado ao campo "color" com a declaração **SET** vai ser adicionado ao campo "brand" cujo o valor é "Volvo".
 
+
+---
+# AVISO IMPORTANTE:
+## Tenha cuidado ao atualizar colunas. Se você não usar a declaração `WHERE`, TODOS os dados serão atualizados em todos os campos! <br> Então não esqueça de usar a declaração `WHERE` para sinalizar aonde você quer aplicar as atualizações. 
+
+## EXEMPLO: No código abaixo, sem a declaração `WHERE`, TODOS os campos serão atualizados a partir somente da declaração `SET`.
+
+```sql
+UPDATE cars
+  SET color = 'red';
+```
+---
+## Atualizando múltiplas colunas
+
+Para atualizar mais de uma coluna, separe os campos e valores com uma vírgula.
+
+Exemplo baixo:
+
+```sql
+UPDATE CARS
+  SET color = 'white', year = 1970
+  WHERE brand = 'Toyota';
+```
+
+Escreva
+```sql
+  SELECT * FROM cars;
+```
+Para ver as mudanças!
