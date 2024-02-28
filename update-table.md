@@ -6,7 +6,7 @@
 - Atualizando múltiplas colunas
 
 ## Para o que serve a declaração `UPDATE`
-A declaração `UPDATE` serve para adicionar dados em valores de campos específicos de uma coluna da tabela.
+A declaração `UPDATE` serve para **editar** dados em valores de campos específicos de uma coluna da tabela.
 
 ## Explicando a sintaxe da declaração `UPDATE`
 
